@@ -1,4 +1,24 @@
 
+#github > a::before {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.25em;
+	content: "";
+	background: url('../images/blacktocat.png') transparent no-repeat 95% 50%;
+	background-size: 100%;
+}
+
+#linkedin > a::before {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.25em;
+	content: "";
+	background: url('../images/linkedin.png') transparent no-repeat 95% 50%;
+	background-size: 100%;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -20,11 +40,13 @@ address {
 }
 
 address > ul {
+	display: inline-block;
 	margin: 0;
 	padding: 0;
+	margin-top: 0.5em;
 }
 
 address > ul > li {
-	display: inline;
+	display: inline-block;
 	margin-right: 1em;
 }
