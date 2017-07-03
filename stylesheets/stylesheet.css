@@ -1,4 +1,5 @@
 
+/* This is from one of the github-pages templates */
 #forkme_banner {
   display: block;
   position: absolute;
@@ -14,3 +15,30 @@
   border-bottom-right-radius: 2px;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 0;
+}
+
+header {
+	overflow: hidden;
+}
+
+#profile_picture {
+	float: left;
+	width: 150px;
+	margin-right: 1em;
+}
+
+address {
+	margin-top: 0.5em;
+}
+
+address > ul {
+	margin: 0;
+	padding: 0;
+}
+
+address > ul > li {
+	display: inline;
+	margin-right: 1em;
+}
