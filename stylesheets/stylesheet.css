@@ -60,9 +60,14 @@ address > ul > li {
 }
 
 body > header, body > section {
+	background-color: #d3b0ed;
 	padding: 10px;
 	max-width: 640px;
 	margin: 0 auto;
 	margin-top: 5px;
 	box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+}
+
+body {
+	background-color: #a45cdb;
 }
