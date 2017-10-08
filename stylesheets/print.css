@@ -49,6 +49,21 @@ address > ul > #email > a {
 
 body > section {
 	margin-top: 0.5em;
-	page-break-inside: avoid;
 	border-top: 1px solid black;
+	page-break-inside: avoid;
+}
+
+.jobtype {
+	font-size: smaller;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#introduction > p:first-child,
+#introduction > p:last-child {
+	display: none;
+}
+
+h2 {
+	font-size: smaller;
 }
