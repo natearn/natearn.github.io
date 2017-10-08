@@ -72,3 +72,7 @@ body {
 	background-color: #a45cdb;
 	font-family: sans-serif;
 }
+
+#introduction > p:first-child {
+	font-weight: bold;
+}
