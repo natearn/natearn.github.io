@@ -1,10 +1,16 @@
+
+a:after {
+	content: " (" attr(href) ") ";
+}
+
+/* This is insanity */
+section section {
+	page-break-inside: avoid;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	margin-top: 0.5em;
 	margin-bottom: 0;
-}
-
-p {
-	font-size: small;
 }
 
 header {
@@ -26,17 +32,17 @@ address > ul {
 	padding: 0;
 }
 
-address > ul > #email {
-	display: inline;
+address > ul > li {
+	list-style: none;
 }
 
-address > ul > :not(#email) {
-	display: none;
-}
-
-address > ul > #email > a {
+address > ul a {
 	text-decoration: none;
 	color: inherit;
+}
+
+address #email > a:after {
+	content: "";
 }
 
 .date_range {
@@ -46,20 +52,10 @@ address > ul > #email > a {
 body > section {
 	margin-top: 0.5em;
 	border-top: 1px solid black;
-	page-break-inside: avoid;
 }
 
 .jobtype {
 	font-size: smaller;
 	font-style: italic;
 	font-weight: normal;
-}
-
-#introduction > p:first-child,
-#introduction > p:last-child {
-	display: none;
-}
-
-h2 {
-	font-size: smaller;
 }
