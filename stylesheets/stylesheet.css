@@ -82,3 +82,16 @@ body {
 	font-style: italic;
 	font-weight: normal;
 }
+
+.tags > ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tags > ul > li {
+	list-style: none;
+	display: inline-block;
+	background: rgba(0,0,0,0.1);
+	font-size: smaller;
+	padding: 0 0.2em;
+}
