@@ -63,3 +63,7 @@ body > section {
 .tags {
 	display: none;
 }
+
+#technologies {
+	margin-bottom: 1em;
+}
