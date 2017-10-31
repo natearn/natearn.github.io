@@ -96,3 +96,14 @@ body {
 	padding: 0 0.2em;
 }
 
+#skills > ul {
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+#skills > ul > li {
+	display: inline-block;
+	background: rgba(0,0,0,0.1);
+	font-size: smaller;
+	padding: 0 0.2em;
+}
