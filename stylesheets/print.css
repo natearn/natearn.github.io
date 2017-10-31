@@ -74,7 +74,6 @@ body > section {
 }
 
 .tags > ul > li {
-	list-style: none;
 	display: inline-block;
 	font-size: smaller;
 	padding: 0 0.2em;
