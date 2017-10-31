@@ -57,7 +57,7 @@ address #email > a:after {
 	font-size: small;
 }
 
-body > section {
+body > section, body > footer {
 	margin-top: 0.5em;
 	border-top: 1px solid black;
 }
@@ -90,4 +90,8 @@ body > section {
 	list-style: none;
 	padding: 0 0.2em;
 	font-size: smaller;
+}
+
+footer > address {
+	text-align: center;
 }

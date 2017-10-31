@@ -37,6 +37,9 @@ header {
 	margin-right: 1em;
 }
 
+footer > address {
+	text-align: center;
+}
 
 address > ul {
 	display: inline-block;
@@ -56,7 +59,7 @@ address > ul > li {
 	font-size: small;
 }
 
-body > header, body > section {
+body > header, body > section, body > footer {
 	background-color: #d3b0ed;
 	padding: 10px;
 	max-width: 640px;
@@ -103,4 +106,8 @@ body {
 	background: rgba(0,0,0,0.1);
 	font-size: smaller;
 	padding: 0 0.2em;
+}
+
+footer {
+	display: none;
 }
