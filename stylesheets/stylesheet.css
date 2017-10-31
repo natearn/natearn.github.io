@@ -96,6 +96,6 @@ body {
 	padding: 0 0.2em;
 }
 
-#technologies {
-	margin-bottom: 1em;
+#technologies > .tags {
+	margin: 1em;
 }
