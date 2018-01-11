@@ -9,6 +9,9 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 		<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css">
 
+		<script type="text/javascript" src="https://natearn.github.io/react-vim-tips/dist/VimTips.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://natearn.github.io/react-vim-tips/stylesheets/VimTips.css">
+
 		<title>natearn</title>
 	</head>
 
@@ -157,6 +160,19 @@
 					</div>
 				</header>
 				<p>Honours Computer Science, Co-operative Program, Faculty of Mathematics</p>
+			</section>
+		</section>
+		<section id="projects">
+			<h3>Projects</h3>
+			<section id="reactvimtips">
+				<a href="https://github.com/natearn/react-vim-tips"><h4>React Vim Tips</h4></a>
+				<div id="demo" class="VimTips"></div>
+				<script>
+					ReactVimTips.render(
+						{ interval: 5000 },
+						document.getElementById("demo")
+					)
+				</script>
 			</section>
 		</section>
 		<footer>
