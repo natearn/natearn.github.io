@@ -1,0 +1,108 @@
+
+a:after {
+	content: " (" attr(href) ") ";
+}
+
+/* This is insanity */
+section section {
+	page-break-inside: avoid;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+section:not(#introduction) p {
+	margin-top: 0.5em;
+}
+
+header {
+	overflow: hidden;
+}
+
+#profile_picture {
+	display: none;
+	float: left;
+	width: 150px;
+	margin-right: 1em;
+}
+
+address {
+	margin-top: 1em;
+}
+
+address > ul {
+	margin: 0;
+	padding: 0;
+}
+
+address > ul > li {
+	list-style: none;
+}
+
+address > ul a {
+	text-decoration: none;
+	color: inherit;
+}
+
+address #email > a:after {
+	content: "";
+}
+
+.date_range {
+	font-size: small;
+}
+
+body > section, body > footer {
+	margin-top: 0.5em;
+	border-top: 1px solid black;
+}
+
+.jobtype {
+	font-size: small;
+	font-style: italic;
+	font-weight: normal;
+}
+.jobtype:before {
+	content: '('
+}
+.jobtype:after {
+	content: ')'
+}
+
+.tags > ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tags > ul > li {
+	display: inline-block;
+	font-size: small;
+	padding: 0 0.2em;
+	font-style: italic;
+}
+
+#skills > ul {
+	columns: 3;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+#skills > ul > li {
+	list-style: none;
+	padding: 0 0.2em;
+	font-size: small;
+}
+
+footer > address {
+	text-align: center;
+}
+
+#experience .subheading {
+	font-size: small;
+}
+
+#education .date_range {
+	display: none;
+}
