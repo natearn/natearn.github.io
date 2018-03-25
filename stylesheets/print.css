@@ -106,3 +106,8 @@ footer > address {
 #education .date_range {
 	display: none;
 }
+
+/* I did this to make it all fit on one page */
+#experience > section > ul {
+	margin: 0.9em 0em;
+}
