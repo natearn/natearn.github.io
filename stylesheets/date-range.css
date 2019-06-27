@@ -1,0 +1,10 @@
+.date-range {
+  font-style: italic;
+}
+.date-range::before {
+  content: "("
+}
+
+.date-range::after {
+  content: ")"
+}

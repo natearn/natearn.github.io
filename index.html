@@ -1,143 +1,147 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset='utf-8'>
-		<meta name="description" content="The Nathan Arnold professional homepage">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="description" content="The Nathan Arnold professional homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-		<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/index.css">
 
-		<title>natearn</title>
-	</head>
+    <title>natearn</title>
+  </head>
 
-	<body>
-		<header>
-			<img id="profile_picture" src="images/nathan_profile.jpg" />
-			<h1>Nathan Arnold</h1>
-			<div class="subheading" id="profile_tagline">Software Developer</div>
-			<address>
-				<ul>
-					<li id="email"><a href="mailto:natearn@natearn.info">natearn@natearn.info</a></li>
-					<li id="github"><a href="https://github.com/natearn">github</a></li>
-				</ul>
-			</address>
-		</header>
-		<section id="introduction">
-			<p>Functional programming enthusiast, Web-developer, Backpacker, Musician</p>
-		</section>
-		<section id="experience">
-			<header><h3>Work Experience</h3></header>
-			<section id="mappedin">
-				<header>
-					<h4>MappedIn</h4>
-					<div class="subheading">Senior Software Developer</div>
-					<div class="subheading">
-						<span class="date_range">
-							<time datetime="2014-07-01">July 2014</time> - <time datetime="2015-08-31">August 2015</time>
-						</span>
-					</div>
-					<div class="tags">
-						<ul>
-							<li>Javascript</li>
-							<li>Reactjs</li>
-						</ul>
-					</div>
-				</header>
-				<ul>
-					<li>Designed a new maps platform that improved the reliability and resusability of our interfaces at about 10% of the size
-					<li>Created a library of composable, map-annotating, React components using SVG</li>
-					<li>Delivered complete front-end interfaces for multiple Toronto venues, including all Oxford Properties shopping centres</li>
-				</ul>
-			</section>
-			<section id="boltmade">
-				<header>
-					<h4>Boltmade</h4>
-					<div class="subheading">Junior Software Developer</div>
-					<div class="subheading">
-						<span class="date_range">
-							<time datetime="2013-05-01">May 2013</time> - <time datetime="2013-09-30">September 2013</time>
-							<span class="jobtype">co-op</span>
-						</span>
-					</div>
-					<div class="tags">
-						<ul>
-							<li>Ruby on Rails</li>
-							<li>SCRUM</li>
-						</ul>
-					</div>
-				</header>
-				<ul>
-					<li>Learned SCRUM while developing several Ruby on Rails applications</li>
-					<li>Added features such as threaded comments, network visualizations, and auto-generated PDF documents</li>
-				</ul>
-			</section>
-			<section id="expertise_finder">
-				<header>
-					<h4>Expertise Finder</h4>
-					<div class="subheading">Web-Scraping Ninja</div>
-					<div class="subheading">
-						<span class="date_range">
-							<time datetime="2012-08-01">August 2012</time> - <time datetime="2012-12-31">December 2012</time>
-							<span class="jobtype">co-op</span>
-						</span>
-					</div>
-					<div class="tags">
-						<ul>
-							<li>web-scraping</li>
-							<li>Ruby</li>
-						</ul>
-					</div>
-				</header>
-				<ul>
-					<li>Populated our experts database with public profile information for academics across several sites</li>
-					<li>Enabled logins via LinkedIn (OAuth2) for our site</li>
-				</ul>
-			</section>
-			<section id="magnum_semiconductor">
-				<header>
-					<h4>Magnum Semiconductor</h4>
-					<div class="subheading">Junior Software Developer</div>
-					<div class="subheading">
-						<span class="date_range">
-							<time datetime="2011-05-01">May 2011</time> - <time datetime="2012-04-30">April 2012</time>
-							<span class="jobtype">co-op</span>
-						</span>
-					</div>
-					<div class="tags">
-						<ul>
-							<li>C++</li>
-							<li>SystemC</li>
-						</ul>
-					</div>
-				</header>
-				<ul>
-					<li>Created simulations for our video broadcasting equipment to test new chip designs</li>
-					<li>Made simulations easily configurable by implementing parsers for both XML and YAML formats</li>
-				</ul>
-			</section>
-		</section>
-		<section id="education">
-			<header><h3>Education</h3></header>
-			<section id="university_of_waterloo">
-				<header>
-					<h4>University of Waterloo, Canada</h4>
-					<div class="subheading">Bachelor's Degree, Computer Science</div>
-					<div class="subheading">
-						<span class="date_range">
-							<time datetime="2008-09-01">2008</time> - <time datetime="2014-04-30">2014</time>
-						</span>
-					</div>
-				</header>
-			</section>
-		</section>
-		<footer>
-			<address>
-				<ul>
-					<li id="email"><a href="mailto:natearn@natearn.info">natearn@natearn.info</a></li>
-				</ul>
-			</address>
-		</footer>
-	</body>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#eduction">education</a></li>
+      </ul>
+    </nav>
+    <header>
+      <img class="profile-picture" src="images/nathan_profile.jpg" alt="profile picture" />
+      <div>
+        <h1>Nathan Arnold</h1>
+        <div class="subheading">Software Developer</div>
+        <address>
+          <ul>
+            <li class="email"><a href="mailto:natearn@natearn.info">natearn@natearn.info</a></li>
+            <li class="github"><a href="https://github.com/natearn">github</a></li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <section id="introduction">
+        <p>Functional programming enthusiast, Web-developer, Backpacker, Musician</p>
+      </section>
+      <section id="projects">
+      </section>
+      <section id="experience">
+        <header><h2>Work Experience</h2></header>
+        <section class="workplace">
+          <header>
+            <h3>MappedIn</h3>
+            <div class="subheading">Senior Software Developer</div>
+            <div class="subheading">
+              <span class="date-range">
+                <time datetime="2014-07-01">July 2014</time> - <time datetime="2015-08-31">August 2015</time>
+              </span>
+            </div>
+            <ul class="tags">
+              <li>Javascript</li>
+              <li>Reactjs</li>
+            </ul>
+          </header>
+          <ul class="accomplishments">
+            <li>Designed a new maps platform that improved the reliability and resusability of our interfaces at about 10% of the size
+            <li>Created a library of composable, map-annotating, React components using SVG</li>
+            <li>Delivered complete front-end interfaces for multiple Toronto venues, including all Oxford Properties shopping centres</li>
+          </ul>
+        </section>
+        <section class="workplace">
+          <header>
+            <h3>Boltmade</h3>
+            <div class="subheading">Junior Software Developer</div>
+            <div class="subheading">
+              <span class="date-range">
+                <time datetime="2013-05-01">May 2013</time> - <time datetime="2013-09-30">September 2013</time>
+                <span class="jobtype">co-op</span>
+              </span>
+            </div>
+            <ul class="tags">
+              <li>Ruby on Rails</li>
+              <li>SCRUM</li>
+            </ul>
+          </header>
+          <ul class="accomplishments">
+            <li>Learned SCRUM while developing several Ruby on Rails applications</li>
+            <li>Added features such as threaded comments, network visualizations, and auto-generated PDF documents</li>
+          </ul>
+        </section>
+        <section class="workplace">
+          <header>
+            <h3>Expertise Finder</h3>
+            <div class="subheading">Web-Scraping Ninja</div>
+            <div class="subheading">
+              <span class="date-range">
+                <time datetime="2012-08-01">August 2012</time> - <time datetime="2012-12-31">December 2012</time>
+                <span class="jobtype">co-op</span>
+              </span>
+            </div>
+            <ul class="tags">
+              <li>web-scraping</li>
+              <li>Ruby</li>
+            </ul>
+          </header>
+          <ul class="accomplishments">
+            <li>Populated our experts database with public profile information for academics across several sites</li>
+            <li>Enabled logins via LinkedIn (OAuth2) for our site</li>
+          </ul>
+        </section>
+        <section class="workplace">
+          <header>
+            <h3>Magnum Semiconductor</h3>
+            <div class="subheading">Junior Software Developer</div>
+            <div class="subheading">
+              <span class="date-range">
+                <time datetime="2011-05-01">May 2011</time> - <time datetime="2012-04-30">April 2012</time>
+                <span class="jobtype">co-op</span>
+              </span>
+            </div>
+            <ul class="tags">
+              <li>C++</li>
+              <li>SystemC</li>
+            </ul>
+          </header>
+          <ul class="accomplishments">
+            <li>Created simulations for our video broadcasting equipment to test new chip designs</li>
+            <li>Made simulations easily configurable by implementing parsers for both XML and YAML formats</li>
+          </ul>
+        </section>
+      </section>
+      <section id="education">
+        <header><h2>Education</h2></header>
+        <section>
+          <header>
+            <h3>University of Waterloo, Canada</h3>
+            <div class="subheading">Bachelor's Degree, Computer Science</div>
+            <div class="subheading">
+              <span class="date-range">
+                <time datetime="2008-09-01">2008</time> - <time datetime="2014-04-30">2014</time>
+              </span>
+            </div>
+          </header>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <address>
+        <ul>
+          <li class="email"><a href="mailto:natearn@natearn.info">natearn@natearn.info</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
