@@ -18,7 +18,7 @@ email: natearn@natearn.info
 description: >- # this means to ignore newlines until "baseurl:"
   I'm just trying out jekyll to see if I'd like to use it for my
   website.
-baseurl: /blog # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://natearn.info # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: natearn
 github_username:  natearn
